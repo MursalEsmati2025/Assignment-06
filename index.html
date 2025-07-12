@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie Hub</title>
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Foodie Hub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#restaurants">Restaurants</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section d-flex align-items-center justify-content-center text-white text-center" style="background-image: url(asset/bg.jpg); height: 100vh; background-size: cover; background-position: center;">
+  <div class="overlay bg-dark bg-opacity-50 w-100 h-100 d-flex align-items-center justify-content-center">
+    <div>
+      <h1 class="display-4 fw-bold">Welcome to Foodie Hub</h1>
+      <p class="lead">Order your favorite meals instantly!</p>
+    </div>
+  </div>
+</section>
+
+<!-- Restaurants Section -->
+<section id="restaurants" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">Restaurants</h2>
+    <div class="row g-4">
+
+      <!-- Example Restaurant Card 1 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 hover-shadow">
+          <img src="https://media.istockphoto.com/id/939051976/photo/view-of-stylish-empty-cafe-with-arranged-tables-and-chairs-for-visitors.jpg?s=612x612&w=0&k=20&c=kYVpfEGV-Cm6BWZkzhnA_TDHNDcpdEEswoJtH5fDXzw=" class="card-img-top" alt="Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">Bukhara</h5>
+            <p class="card-text">Bukhara Restaurant in Kabul’s Karte 4 offers a warm, elegantly decorated setting serving authentic Afghan kebabs and pilaf with friendly hospitality.</p>
+            <a href="#menu" class="btn btn-primary btn-sm">View Menu</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above for 5 more restaurants -->
+
+      <!-- Example Restaurant Card 2 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 hover-shadow">
+          <img src="https://www.liveabout.com/thmb/dtrAmRnpSqL-aI77H0iwApm22Hc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/overhead-view-of-smiling-female-friends-sharing-lunch-in-restaurant-928010348-5b4abe8f46e0fb003712c478.jpg" class="card-img-top" alt="Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">Yummy</h5>
+            <p class="card-text">Yummy Fast Food in Kabul’s Shahr-e Naw and Kart-e‑Char serves fresh pizzas, burgers, and chicken wings 24/7 in a casual, family‑friendly setting.</p>
+            <a href="#menu" class="btn btn-primary btn-sm">View Menu</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above for 5 more restaurants -->
+
+      <!-- Example Restaurant Card 3 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 hover-shadow">
+          <img src="https://assets.architecturaldigest.in/photos/64f85037ec0bc118bdd98aba/3:2/w_1620,h_1080,c_limit/Untitled%20design%20(14).png" class="card-img-top" alt="Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">Mr. Cook</h5>
+            <p class="card-text">Mr. Cook Fast Food in Kabul’s Shahr-e Naw is a popular casual eatery serving juicy burgers, pizzas, local-style kebabs and fries with friendly Afghan hospitality.</p>
+            <a href="#menu" class="btn btn-primary btn-sm">View Menu</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above for 5 more restaurants -->
+
+      <!-- Example Restaurant Card 4 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 hover-shadow">
+          <img src="https://t3.ftcdn.net/jpg/03/11/19/38/360_F_311193887_0aXFwwXXHu4PsBAVNW1USeypg1clOH8E.jpg" class="card-img-top" alt="Restaurant">
+          <div class="card-body">
+            <h5 class="card-title">Cafeteria</h5>
+            <p class="card-text">The Cafeteria in Kabul’s Shahr-e Naw is a cozy, family-friendly eatery known for its warm ambiance and menu of delicious Afghan kebabs, pilafs, fresh salads, and extensive desserts.</p>
+            <a href="#menu" class="btn btn-primary btn-sm">View Menu</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate above for 5 more restaurants -->
+
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="mb-4 text-center">Menu</h2>
+    <div class="row g-4">
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Pizza</h5>
+            <p class="card-text">Tasty dish description goes here.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add more dishes as needed -->
+
+       <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Wings</h5>
+            <p class="card-text">Tasty dish description goes here.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add more dishes as needed -->
+
+       <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Qabili</h5>
+            <p class="card-text">Tasty dish description goes here.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add more dishes as needed -->
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Popcorn</h5>
+            <p class="card-text">Crispy, bite-sized chicken pieces, perfect for snacking.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Chili Dry</h5>
+            <p class="card-text">Spicy stir-fried chicken with chili and peppers.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Chips</h5>
+            <p class="card-text">Golden, crispy potato fries served hot and fresh.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Soup</h5>
+            <p class="card-text">Warm, flavorful broth with vegetables or meat.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Kabab</h5>
+            <p class="card-text">Skewered minced meat grilled to smoky perfection.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Kabab</h5>
+            <p class="card-text">Tender grilled chicken skewers marinated in spices.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Curry</h5>
+            <p class="card-text">Rich, spicy chicken curry simmered in traditional sauce.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Burger</h5>
+            <p class="card-text">Juicy patty with fresh toppings in a toasted bun.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bolani</h5>
+            <p class="card-text">Pan-fried flatbread stuffed with potato or greens.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Ashak</h5>
+            <p class="card-text">Dumplings filled with leeks, topped with meat sauce and yogurt.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Manto</h5>
+            <p class="card-text">Afghan dumplings stuffed with spiced beef and lentils.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Example Menu Item 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Beryani</h5>
+            <p class="card-text">Spiced rice dish cooked with marinated meat and herbs.</p>
+            <p><strong>$12.99</strong></p>
+            <span class="badge bg-success">Available</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Order Form -->
+<section id="order" class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">Place Your Order</h2>
+    <form action="#" method="POST">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Customer Name</label>
+          <input type="text" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Select Restaurant</label>
+          <select class="form-select">
+            <option>Bukhara</option>
+            <option>Yummy</option>
+            <option>Mr. Cook</option>
+            <option>Cafeteria</option>
+            <!-- Add more -->
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Menu Items</label>
+          <div class="form-check">
+           <div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item1">
+  <label class="form-check-label" for="item1">Pizza Medium</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item2">
+  <label class="form-check-label" for="item2">Wings 12 Pcs</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item3">
+  <label class="form-check-label" for="item3">Qabili 1 plate</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item4">
+  <label class="form-check-label" for="item4">Chicken Popcorn 20 Pcs</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item5">
+  <label class="form-check-label" for="item5">Chicken Chili Dry 1 Plate</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item6">
+  <label class="form-check-label" for="item6">Soup 1 bowl</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item7">
+  <label class="form-check-label" for="item7">Chips 1 plate</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item8">
+  <label class="form-check-label" for="item8">Kabab 1 Serving</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item9">
+  <label class="form-check-label" for="item9">Chicken Kabab 1 Serving</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item10">
+  <label class="form-check-label" for="item10">Chicken Curry 1Kg</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item11">
+  <label class="form-check-label" for="item11">Burger 1x</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item12">
+  <label class="form-check-label" for="item12">Bolani 1x</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item13">
+  <label class="form-check-label" for="item13">Ashak 1 Plate</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item14">
+  <label class="form-check-label" for="item14">Manto 1 Plate</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item14">
+  <label class="form-check-label" for="item14">Beryani 1 Plate</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="item14">
+  <label class="form-check-label" for="item14">Finger Fish 16 Pcs</label>
+</div>
+          </div>
+          <!-- Add more checkboxes -->
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button type="submit" class="btn btn-success">Submit Order</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1273516682.jpg?c=original" class="img-fluid rounded" alt="About Foodie Hub">
+      </div>
+      <div class="col-md-6">
+        <h2>About Foodie Hub</h2>
+        <p>Foodie Hub connects food lovers with local restaurants in a seamless and responsive web experience. Order meals easily from your favorite spots!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact / Footer -->
+<footer id="contact" class="bg-dark text-white py-4">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-6">
+        <h5>Contact Us</h5>
+        <p>Email: info@foodiehub.com</p>
+        <p>Phone: +123 456 789</p>
+        <p>Address: 123 Food Street, Flavor Town</p>
+      </div>
+      <div class="col-md-6 text-md-end mt-3 mt-md-0">
+        <h5>Follow Us</h5>
+        <i class="bi bi-facebook me-2"></i>
+        <i class="bi bi-instagram me-2"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

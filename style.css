@@ -1,0 +1,35 @@
+/* style.css */
+
+/* Hover shadow for cards */
+.hover-shadow:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Menu badge colors */
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+.badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+/* Responsive typography and spacing */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  form .form-label {
+    font-size: 0.9rem;
+  }
+}
+
+#home {
+  background-image: url(asset/bg.jpg);
+}
